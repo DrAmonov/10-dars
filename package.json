@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@grammyjs/i18n": "^1.0.1",
+    "@grammyjs/router": "^2.0.0",
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
     "grammy": "^1.16.1",
+    "grammy-inline-menu": "^8.0.0",
     "nodemon": "^2.0.22"
   }
 }
